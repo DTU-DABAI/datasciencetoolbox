@@ -1,3 +1,11 @@
+"""
+Preprocessing module
+
+"""
+
+
+from sklearn.neighbors import NearestNeighbors
+import pandas as pd
 
 
 def remove_outliers(data_table: pd.DataFrame, strategy: str):
@@ -14,9 +22,14 @@ def remove_outliers(data_table: pd.DataFrame, strategy: str):
 
     if strategy == 'normal':
         # TODO: Implement
+        pass
     elif strategy == 'knn-avg-distance':
         # TODO: Implement
         # Find avg knn distances
         # data_table = remove_outliers(knn_distances,strategy='normal')
+
+        nbrs = NearestNeighbors(
+            n_neighbors=5, algorithm='ball_tree', metric='euclidean').fit(points)
+        distances, indices = nbrs.kneighbors(points)
 
     return NotImplemented

@@ -1,8 +1,11 @@
+[![Documentation Status](https://readthedocs.org/projects/datasciencetoolbox/badge/?version=latest)](https://datasciencetoolbox.readthedocs.io/en/latest/?badge=latest)
+
 # Data Science Tool Box
 A simple collection of well documented methods for performing data science on a wide range of data.
 
 # Project Structure / Naming convention
-the toolbox contains methods for different tasks within different domains with the naming convention `datasciencetoolbox.<domain>.<task>.<method>`; the most important domain name is 'general' containing generic implementations of methods for fundamental tasks (i.e. implementation of a nearest-neighbor classifier).
+the toolbox contains methods for different tasks within different domains with the naming convention `datasciencetoolbox. < domain > . < task > . < method >`
+the most important domain name is 'general' containing generic implementations of methods for fundamental tasks(i.e. implementation of a nearest-neighbor classifier).
 
 "Domain name examples":
 
@@ -14,7 +17,7 @@ Domains may use methods from other domains depending on how specialized they are
 
 "Task name examples":
 
-- preprocessing 
+- preprocessing
 - modeling
 - ...
 
