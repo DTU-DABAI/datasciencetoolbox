@@ -27,4 +27,15 @@ Domains may use methods from other domains depending on how specialized they are
 Following these guidelines when contributing to the data science tool box
 
 
+# Testing
+
+Tests are located in the test directory and run by either
+
+```
+pytest
+```
+or to test the installation of the package with tox
+```
+tox
+```
 ...
