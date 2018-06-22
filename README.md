@@ -3,8 +3,10 @@
 # Data Science Tool Box
 A simple collection of well documented methods for performing data science on a wide range of data.
 
+![Under Construction](img/underconstruction.jpg)
+
 # Project Structure / Naming convention
-the toolbox contains methods for different tasks within different domains with the naming convention `datasciencetoolbox. < domain > . < task > . < method >`
+the toolbox contains methods for different tasks within different domains with the naming convention `datasciencetoolbox.<domain>.<task>.<method>`
 the most important domain name is 'general' containing generic implementations of methods for fundamental tasks(i.e. implementation of a nearest-neighbor classifier).
 
 "Domain name examples":
