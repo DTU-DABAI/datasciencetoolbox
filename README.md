@@ -1,4 +1,4 @@
-[![Documentation Status](https://readthedocs.org/projects/datasciencetoolbox/badge/?version=latest)](https://datasciencetoolbox.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/datasciencetoolbox/badge/?version=latest)](https://datasciencetoolbox.readthedocs.io/en/latest/?badge=latest) [![Build Status](https://travis-ci.org/DTU-DABAI/datasciencetoolbox.svg?branch=master)](https://travis-ci.org/DTU-DABAI/datasciencetoolbox)
 
 # Data Science Tool Box
 A simple collection of well documented methods for performing data science on a wide range of data.
